@@ -1,7 +1,3 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: PST
- * Date: 05.07.2016
- * Time: 18:32
- */
+ $string = file_get_contents('http://catalog.onliner.by/mobile/apple/apple_iphone5s16/prices?region=minsk&currency=byr');
+var_dump($string);
